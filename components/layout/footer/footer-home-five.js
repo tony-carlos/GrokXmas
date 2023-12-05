@@ -11,7 +11,7 @@ export default function FooterHomeFive() {
 						<div className="col-lg-3">
 							<div className="fugu--textarea">
 								<div className="fugu--footer-logo">
-									<img src="/images/logo/logo-white.svg" alt="" className="light-version-logo" />
+									<img src="/images/logo/logoo.png" alt="" className="light-version-logo" />
 								</div>
 								<p>
 									Discover NFTs by category, track the latest drops, and follow the collections you
