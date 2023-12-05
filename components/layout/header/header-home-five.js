@@ -27,7 +27,7 @@ export default function HeaderHomeFive() {
 				<nav className="navbar site-navbar">
 					<div className="brand-logo rt-mr-20">
 						<Link href={"/"}>
-							<img src="/images/logo/logo-white.svg" alt="" className="light-version-logo" />
+							<img src="/images/logo/logo.png" alt="" className="light-version-logo" />
 						</Link>
 					</div>
 					<div className="menu-block-wrapper">
@@ -53,7 +53,7 @@ export default function HeaderHomeFive() {
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
 						<a className="fugu--btn fugu--menu-btn3" href="contact.html">
-							Get Started
+							Connect Your Wallet
 						</a>
 					</div>
 

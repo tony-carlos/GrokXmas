@@ -102,7 +102,7 @@ export default function FooterHomeFive() {
 									<li>
 										<Link href="#">
 											<img src="/images/svg2/mail.svg" alt="" />
-											example@gmail. com
+											info@grokxmas.com
 										</Link>
 									</li>
 									<li>
@@ -119,7 +119,7 @@ export default function FooterHomeFive() {
 				<div className="fugu--footer-bottom fugu--footer-bottom3">
 					<div className="row">
 						<div className="col-lg-6">
-							<p>&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
+							<p>&copy; Copyright 2023, All Rights Reserved by Mthemeus</p>
 						</div>
 						<div className="col-lg-6">
 							<div className="fugu--footer-menu">

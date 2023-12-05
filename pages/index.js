@@ -12,7 +12,7 @@ export default function IndexFive() {
 	return (
 		<>
 			<Head>
-				<title>fugu -5</title>
+				<title>Grok Xmas </title>
 			</Head>
 			<HeroSection />
 			<ClientSliderOne />
