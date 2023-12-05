@@ -11,7 +11,7 @@ export default function TestimonialSection() {
 					<div className="fugu--default-content">
 						<h2>Users around the world have a great experience with Fugu</h2>
 						<p>
-							Fugu is a place of trust for millions of people. Our customer reviews overall and is rated
+							Grok Xmas is a place of trust for millions of people. Our customer reviews overall and is rated
 							just 4.5 out of 5 stars on Trustpilot. It is the right place for you.
 						</p>
 					</div>

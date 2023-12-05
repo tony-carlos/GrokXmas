@@ -56,12 +56,9 @@ export default function FooterHomeFive() {
 									<li>
 										<Link href="#">My Account</Link>
 									</li>
-									<li>
-										<Link href="#">Job</Link>
-									</li>
-									<li>
-										<Link href="#">List a Item</Link>
-									</li>
+									
+									
+								
 								</ul>
 							</div>
 						</div>
@@ -75,9 +72,7 @@ export default function FooterHomeFive() {
 									<li>
 										<Link href="#">Digital Art</Link>
 									</li>
-									<li>
-										<Link href="#">Photography</Link>
-									</li>
+									
 									<li>
 										<Link href="#">Games</Link>
 									</li>
@@ -93,12 +88,7 @@ export default function FooterHomeFive() {
 							</div>
 							<div className="fugu--info">
 								<ul>
-									<li>
-										<Link href="#">
-											<img src="/images/svg2/phone.svg" alt="" />
-											+088-234-6534
-										</Link>
-									</li>
+									
 									<li>
 										<Link href="#">
 											<img src="/images/svg2/mail.svg" alt="" />
@@ -108,7 +98,7 @@ export default function FooterHomeFive() {
 									<li>
 										<Link href="#">
 											<img src="/images/svg2/map.svg" alt="" />
-											6391 Elgin St. Celina, New York City.
+											Grok Xmas World
 										</Link>
 									</li>
 								</ul>
@@ -119,7 +109,7 @@ export default function FooterHomeFive() {
 				<div className="fugu--footer-bottom fugu--footer-bottom3">
 					<div className="row">
 						<div className="col-lg-6">
-							<p>&copy; Copyright 2023, All Rights Reserved by Mthemeus</p>
+							<p>&copy; Copyright 2023, All Rights Reserved by Grok Xmas</p>
 						</div>
 						<div className="col-lg-6">
 							<div className="fugu--footer-menu">

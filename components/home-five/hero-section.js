@@ -9,19 +9,17 @@ export default function HeroSection() {
 					<div className="col-lg-7">
 						<div className="fugu--hero-content fugu--hero-content3">
 							<h1 className="wow fadeInUpX" data-wow-delay="0s">
-								New-gen of digital currency
+							GROK XMAS
 							</h1>
 							<p className="wow fadeInUpX" data-wow-delay="0.15s">
-								Get started with one of the easiest and most secure platforms for buying, selling,
-								trading, and earning cryptocurrency in one place.
+							The ultimate gift of the year, giving to community and gathering together X10000 possibilities,
+							 stealth launch on PancakeSwap.
 							</p>
 							<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.25s">
 								<Link href={"/"} legacyBehavior>
-									<a className="fugu--btn bg-blue active">Get Started</a>
+									<a className="fugu--btn bg-blue ">Get Started</a>
 								</Link>
-								<Link href={"/"} legacyBehavior>
-									<a className="fugu--btn bg-blue">Discover More</a>
-								</Link>
+								
 							</div>
 						</div>
 					</div>

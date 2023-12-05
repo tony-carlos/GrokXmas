@@ -12,7 +12,7 @@ export default function VideoSectionFour() {
 				<div className="row">
 					<div className="col-xl-6">
 						<div className="fugu--video-thumb wow fadeInUpX" data-wow-delay="0.10s">
-							<img src="/images/all-img/v5/video-thumb.png" alt="" />
+							<img src="/images/new_img/img.png" alt="" />
 							<div className="fugu--popup" onClick={() => setOpen(true)}>
 								<img src="/images/all-img/v5/play-button.png" alt="" />
 								<div className="waves wave-1"></div>
@@ -29,9 +29,9 @@ export default function VideoSectionFour() {
 					</div>
 					<div className="col-xl-6 d-flex align-items-center">
 						<div className="fugu--default-content">
-							<h2>Fugu is the most trusted cryptocurrency platform</h2>
+							<h2>Grok Xmas is the most trusted cryptocurrency platform</h2>
 							<p>
-								Fugu Cryptocurrency exchanges are websites where individuals can buy, sell, or exchange
+								Grok Xmas Cryptocurrency exchanges are websites where individuals can buy, sell, or exchange
 								crypto-currencies other digital currency here a Fugu is a cryptocurrency markets have
 								crashed in the last 24 hours.
 							</p>

@@ -5,8 +5,8 @@ import VideoSectionFour from "../components/common/video/video-section-four";
 import CtaSection from "../components/home-five/cta-section";
 import FeatureSection from "../components/home-five/feature-section";
 import HeroSection from "../components/home-five/hero-section";
-import TestimonialSection from "../components/home-five/testimonial-section";
 import WalletSection from "../components/home-five/wallet-section";
+import ValueSection from "../components/home-five/value-section";
 
 export default function IndexFive() {
 	return (
@@ -15,11 +15,11 @@ export default function IndexFive() {
 				<title>Grok Xmas </title>
 			</Head>
 			<HeroSection />
+			<ValueSection />
 			<ClientSliderOne />
 			<VideoSectionFour />
 			<FeatureSection />
 			<WalletSection />
-			<TestimonialSection />
 			<FaqAccordionTwo />
 			<CtaSection />
 		</>
