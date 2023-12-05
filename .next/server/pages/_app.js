@@ -133,7 +133,7 @@ function FooterHomeFive() {
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "fugu--footer-logo",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                                src: "/images/logo/logo-white.svg",
+                                                src: "/images/logo/logoo.png",
                                                 alt: "",
                                                 className: "light-version-logo"
                                             })
@@ -1251,127 +1251,6 @@ function FooterHomeThree() {
 
 /***/ }),
 
-/***/ 8829:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ HeaderErrorSix)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6642);
-/* harmony import */ var _navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2542);
-/* harmony import */ var _navbar_navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2852);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__]);
-_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-/* eslint-disable @next/next/no-img-element */ 
-
-
-
-
-
-function HeaderErrorSix() {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
-    const handleCloseMobileMenu = ()=>{
-        setIsMobileMenuOpen(false);
-    };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
-        className: "site-header site-header--menu-right fugu-header-section bg-warning-400",
-        id: "sticky-menu",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            className: "container-fluid",
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                className: "navbar site-navbar",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "brand-logo",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            href: "/",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                src: "/images/logo/logo-black.svg",
-                                alt: "",
-                                className: "light-version-logo"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "menu-block-wrapper",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: `menu-overlay ${isMobileMenuOpen ? "active" : null}`,
-                                onClick: handleCloseMobileMenu
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                                className: `menu-block ${isMobileMenuOpen ? "active" : null}`,
-                                id: "append-menu-header",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "mobile-menu-head",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "mobile-menu-close",
-                                            onClick: handleCloseMobileMenu,
-                                            children: "\xd7"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_navbar_navbar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Demo",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .DemoDropdownMenus */ .hv
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Pages",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .PagesDropdownMenus */ .Bq
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Elements",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ElementsMegaMenu */ .NE,
-                                                megaMenu: true
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Blog",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .BlogDropdownMenus */ .Qk
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Contact Us",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ContactDropdownMenus */ .mG
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            className: "fugu-btn fugu-header-btn",
-                            href: "contact.html",
-                            children: "Get Started"
-                        })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "mobile-menu-trigger",
-                        onClick: ()=>setIsMobileMenuOpen(!isMobileMenuOpen),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {})
-                    })
-                ]
-            })
-        })
-    });
-}
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
 /***/ 473:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -1443,31 +1322,7 @@ function HeaderHomeFive() {
                                             children: "\xd7"
                                         })
                                     }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_navbar_navbar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Demo",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .DemoDropdownMenus */ .hv
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Pages",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .PagesDropdownMenus */ .Bq
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Elements",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ElementsMegaMenu */ .NE,
-                                                megaMenu: true
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Blog",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .BlogDropdownMenus */ .Qk
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Contact Us",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ContactDropdownMenus */ .mG
-                                            })
-                                        ]
-                                    })
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_navbar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {})
                                 ]
                             })
                         ]
@@ -1478,502 +1333,6 @@ function HeaderHomeFive() {
                             className: "fugu--btn fugu--menu-btn3",
                             href: "contact.html",
                             children: "Connect Your Wallet"
-                        })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "mobile-menu-trigger",
-                        onClick: ()=>setIsMobileMenuOpen(!isMobileMenuOpen),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {})
-                    })
-                ]
-            })
-        })
-    });
-}
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 1978:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ HeaderHomeFour)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6642);
-/* harmony import */ var _navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2542);
-/* harmony import */ var _navbar_navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2852);
-/* harmony import */ var _hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9029);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__]);
-_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-/* eslint-disable @next/next/no-img-element */ 
-
-
-
-
-
-
-function HeaderHomeFour() {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
-    const handleCloseMobileMenu = ()=>{
-        setIsMobileMenuOpen(false);
-    };
-    const scroll = (0,_hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z)();
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
-        className: `site-header fugu--header-section fugu--header-two ${scroll ? "sticky-menu" : ""}`,
-        id: "sticky-menu",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            className: "container-fluid",
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                className: "navbar site-navbar",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "brand-logo rt-mr-20",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            href: "/",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                src: "/images/logo/logo-black.svg",
-                                alt: "",
-                                className: "light-version-logo"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "menu-block-wrapper",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: `menu-overlay ${isMobileMenuOpen ? "active" : null}`,
-                                onClick: handleCloseMobileMenu
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                                className: `menu-block ${isMobileMenuOpen ? "active" : null}`,
-                                id: "append-menu-header",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "mobile-menu-head",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "mobile-menu-close",
-                                            onClick: handleCloseMobileMenu,
-                                            children: "\xd7"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_navbar_navbar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Demo",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .DemoDropdownMenus */ .hv
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Pages",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .PagesDropdownMenus */ .Bq
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Elements",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ElementsMegaMenu */ .NE,
-                                                megaMenu: true
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Blog",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .BlogDropdownMenus */ .Qk
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Contact Us",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ContactDropdownMenus */ .mG
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            className: "fugu--btn fugu--menu-btn2",
-                            href: "contact.html",
-                            children: "Connect Wallet"
-                        })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "mobile-menu-trigger",
-                        onClick: ()=>setIsMobileMenuOpen(!isMobileMenuOpen),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {})
-                    })
-                ]
-            })
-        })
-    });
-}
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 9542:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ HeaderHomeOne)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6642);
-/* harmony import */ var _navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2542);
-/* harmony import */ var _navbar_navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2852);
-/* harmony import */ var _hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9029);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__]);
-_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-
-
-
-/* eslint-disable @next/next/no-img-element */ function HeaderHomeOne() {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
-    const handleCloseMobileMenu = ()=>{
-        setIsMobileMenuOpen(false);
-    };
-    const scroll = (0,_hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z)();
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
-        className: `site-header site-header--menu-right fugu-header-section ${scroll ? "sticky-menu" : ""}`,
-        id: "sticky-menu",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            className: "container-fluid",
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                className: "navbar site-navbar",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "brand-logo",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            href: "/",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                src: "/images/logo/logo-black.svg",
-                                alt: "logo",
-                                className: "light-version-logo"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "menu-block-wrapper",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: `menu-overlay ${isMobileMenuOpen ? "active" : ""}`,
-                                onClick: handleCloseMobileMenu
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                                className: `menu-block ${isMobileMenuOpen ? "active" : null}`,
-                                id: "append-menu-header",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "mobile-menu-head",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "mobile-menu-close",
-                                            onClick: handleCloseMobileMenu,
-                                            children: "\xd7"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_navbar_navbar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Demo",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .DemoDropdownMenus */ .hv
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Pages",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .PagesDropdownMenus */ .Bq
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Elements",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ElementsMegaMenu */ .NE,
-                                                megaMenu: true
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Blog",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .BlogDropdownMenus */ .Qk
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Contact Us",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ContactDropdownMenus */ .mG
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            className: "fugu-btn fugu-header-btn",
-                            href: "contact.html",
-                            children: "Get Started"
-                        })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "mobile-menu-trigger",
-                        onClick: ()=>setIsMobileMenuOpen(!isMobileMenuOpen),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {})
-                    })
-                ]
-            })
-        })
-    });
-}
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 3832:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ HeaderHomeThree)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6642);
-/* harmony import */ var _navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2542);
-/* harmony import */ var _navbar_navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2852);
-/* harmony import */ var _hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9029);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__]);
-_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-/* eslint-disable @next/next/no-img-element */ 
-
-
-
-
-
-
-function HeaderHomeThree() {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
-    const handleCloseMobileMenu = ()=>{
-        setIsMobileMenuOpen(false);
-    };
-    const scroll = (0,_hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z)();
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
-        className: `site-header site-header--menu-right fugu--header-section fugu--header-three ${scroll ? "sticky-menu" : ""}`,
-        id: "sticky-menu",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            className: "container-fluid",
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                className: "navbar site-navbar",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "brand-logo",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            href: "/",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                src: "/images/logo/logo-white.svg",
-                                alt: "",
-                                className: "light-version-logo"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "menu-block-wrapper",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: `menu-overlay ${isMobileMenuOpen ? "active" : null}`,
-                                onClick: handleCloseMobileMenu
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                                className: `menu-block ${isMobileMenuOpen ? "active" : null}`,
-                                id: "append-menu-header",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "mobile-menu-head",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "mobile-menu-close",
-                                            onClick: handleCloseMobileMenu,
-                                            children: "\xd7"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_navbar_navbar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Demo",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .DemoDropdownMenus */ .hv
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Pages",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .PagesDropdownMenus */ .Bq
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Elements",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ElementsMegaMenu */ .NE,
-                                                megaMenu: true
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Blog",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .BlogDropdownMenus */ .Qk
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Contact Us",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ContactDropdownMenus */ .mG
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            className: "fugu--btn fugu--menu-btn1",
-                            href: "contact.html",
-                            children: "Connect Wallet"
-                        })
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "mobile-menu-trigger",
-                        onClick: ()=>setIsMobileMenuOpen(!isMobileMenuOpen),
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {})
-                    })
-                ]
-            })
-        })
-    });
-}
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 7089:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ HeaderHomeTwo)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6642);
-/* harmony import */ var _navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2542);
-/* harmony import */ var _navbar_navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2852);
-/* harmony import */ var _hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9029);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__]);
-_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-/* eslint-disable @next/next/no-img-element */ 
-
-
-
-
-
-
-function HeaderHomeTwo() {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
-    const handleCloseMobileMenu = ()=>{
-        setIsMobileMenuOpen(false);
-    };
-    const scroll = (0,_hooks_useScroll__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z)();
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("header", {
-        className: `site-header fugu--header-two fugu-header-section ${scroll ? "sticky-menu" : ""}`,
-        id: "sticky-menu",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            className: "container-fluid",
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                className: "navbar site-navbar",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "brand-logo",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            href: "/",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                src: "/images/logo/logo-black.svg",
-                                alt: "",
-                                className: "light-version-logo"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "menu-block-wrapper",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: `menu-overlay ${isMobileMenuOpen ? "active" : null}`,
-                                onClick: handleCloseMobileMenu
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
-                                className: `menu-block ${isMobileMenuOpen ? "active" : null}`,
-                                id: "append-menu-header",
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "mobile-menu-head",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: "mobile-menu-close",
-                                            onClick: handleCloseMobileMenu,
-                                            children: "\xd7"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_navbar_navbar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Demo",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .DemoDropdownMenus */ .hv
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Pages",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .PagesDropdownMenus */ .Bq
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Elements",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ElementsMegaMenu */ .NE,
-                                                megaMenu: true
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Blog",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .BlogDropdownMenus */ .Qk
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_navbar_nav_item__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
-                                                navItemText: "Contact Us",
-                                                menuItems: _navbar_menu_data__WEBPACK_IMPORTED_MODULE_3__/* .ContactDropdownMenus */ .mG
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            className: "fugu-btn fugu-header-btn fugu-header-btn2",
-                            href: "contact.html",
-                            children: "Get Started"
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -2007,19 +1366,9 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var _footer_footer_home_one__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9116);
 /* harmony import */ var _footer_footer_home_three__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4180);
 /* harmony import */ var _footer_footer_home_two__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2079);
-/* harmony import */ var _header_header_error_six__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8829);
-/* harmony import */ var _header_header_home_five__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(473);
-/* harmony import */ var _header_header_home_four__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1978);
-/* harmony import */ var _header_header_home_one__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(9542);
-/* harmony import */ var _header_header_home_three__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(3832);
-/* harmony import */ var _header_header_home_two__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(7089);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_header_header_error_six__WEBPACK_IMPORTED_MODULE_6__, _header_header_home_five__WEBPACK_IMPORTED_MODULE_7__, _header_header_home_four__WEBPACK_IMPORTED_MODULE_8__, _header_header_home_one__WEBPACK_IMPORTED_MODULE_9__, _header_header_home_three__WEBPACK_IMPORTED_MODULE_10__, _header_header_home_two__WEBPACK_IMPORTED_MODULE_11__]);
-([_header_header_error_six__WEBPACK_IMPORTED_MODULE_6__, _header_header_home_five__WEBPACK_IMPORTED_MODULE_7__, _header_header_home_four__WEBPACK_IMPORTED_MODULE_8__, _header_header_home_one__WEBPACK_IMPORTED_MODULE_9__, _header_header_home_three__WEBPACK_IMPORTED_MODULE_10__, _header_header_home_two__WEBPACK_IMPORTED_MODULE_11__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-
-
-
-
-
+/* harmony import */ var _header_header_home_five__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(473);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_header_header_home_five__WEBPACK_IMPORTED_MODULE_6__]);
+_header_header_home_five__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 
@@ -2030,20 +1379,8 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_hea
 function Layout({ children  }) {
     const headerChooseFunc = ()=>{
         switch(children.props.header){
-            case "one":
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_home_one__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {});
-            case "two":
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_home_two__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {});
-            case "three":
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_home_three__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {});
-            case "four":
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_home_four__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {});
             case "five":
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_home_five__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {});
-            case "six":
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_error_six__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {});
-            default:
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_home_one__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {});
+                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_header_header_home_five__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {});
         }
     };
     const footerChooseFunc = ()=>{
@@ -2083,9 +1420,7 @@ __webpack_async_result__();
 
 "use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ DropdownItem)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4563);
@@ -2105,39 +1440,39 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_for
 
 
 function DropdownItem({ navItemText , submenu , path  }) {
-    const [open, setOpen] = (0,react__WEBPACK_IMPORTED_MODULE_4__.useState)(false);
+    const [open, setOpen] = useState(false);
     const handleClick = (e)=>{
         setOpen(!open);
     };
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+    return /*#__PURE__*/ _jsxs("li", {
         className: `sub-menu--item ${submenu ? "nav-item-has-children" : ""}`,
         onClick: handleClick,
         children: [
-            !submenu ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
+            !submenu ? /*#__PURE__*/ _jsx(Link, {
                 href: path,
                 legacyBehavior: true,
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+                children: /*#__PURE__*/ _jsxs("a", {
                     className: "drop-trigger",
                     children: [
                         navItemText,
                         " ",
-                        submenu && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
-                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faAngleDown
+                        submenu && /*#__PURE__*/ _jsx(FontAwesomeIcon, {
+                            icon: faAngleDown
                         })
                     ]
                 })
-            }) : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+            }) : /*#__PURE__*/ _jsxs("a", {
                 href: "#",
                 className: "drop-trigger",
                 children: [
                     navItemText,
                     " ",
-                    submenu && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
-                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faAngleDown
+                    submenu && /*#__PURE__*/ _jsx(FontAwesomeIcon, {
+                        icon: faAngleDown
                     })
                 ]
             }),
-            submenu && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_second_level_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+            submenu && /*#__PURE__*/ _jsx(SecondLevelDropdownMenu, {
                 submenu: submenu,
                 isClicked: open
             })
@@ -2155,9 +1490,7 @@ __webpack_async_result__();
 
 "use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ DropdownMenu)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6555);
@@ -2168,14 +1501,14 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([uuid
 
 
 function DropdownMenu({ isOpenDropDown , menuItems  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
+    return /*#__PURE__*/ _jsx("ul", {
         className: `sub-menu ${isOpenDropDown ? "active" : ""}`,
         id: "submenu-2",
-        children: menuItems?.length && menuItems.map((item)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_dropdown_item__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+        children: menuItems?.length && menuItems.map((item)=>/*#__PURE__*/ _jsx(DropdownItem, {
                 navItemText: item.title,
                 path: item.path,
                 submenu: item.submenu
-            }, (0,uuid__WEBPACK_IMPORTED_MODULE_1__.v4)()))
+            }, uuidv4()))
     });
 }
 
@@ -2188,14 +1521,12 @@ __webpack_async_result__();
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ MegaDropdownItem)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 
 function MegaDropdownItem({ dropdownItem  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+    return /*#__PURE__*/ _jsx("a", {
         href: dropdownItem.path,
         className: "mega-drop-menu-item sub-menu--item",
         children: dropdownItem.title
@@ -2210,9 +1541,7 @@ function MegaDropdownItem({ dropdownItem  }) {
 
 "use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ MegaMenuItem)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6555);
@@ -2223,17 +1552,17 @@ uuid__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (awai
 
 
 function MegaMenuItem({ menuItems  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+    return /*#__PURE__*/ _jsx("li", {
         className: "col-lg-3",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        children: /*#__PURE__*/ _jsxs("div", {
             className: "single-dropdown-block",
             children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                /*#__PURE__*/ _jsx("h3", {
                     children: menuItems?.title
                 }),
-                menuItems?.submenu.length && menuItems.submenu.map((item)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mega_dropdown_item__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                menuItems?.submenu.length && menuItems.submenu.map((item)=>/*#__PURE__*/ _jsx(MegaDropdownItem, {
                         dropdownItem: item
-                    }, (0,uuid__WEBPACK_IMPORTED_MODULE_1__.v4)()))
+                    }, uuidv4()))
             ]
         })
     });
@@ -2249,9 +1578,7 @@ __webpack_async_result__();
 
 "use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ MegaMenu)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6555);
@@ -2262,16 +1589,16 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([uuid
 
 
 function MegaMenu({ menuItems  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+    return /*#__PURE__*/ _jsx("div", {
         className: "sub-menu megamenu megadropdown-center d-lg-flex",
         id: "submenu-100",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+        children: /*#__PURE__*/ _jsxs("ul", {
             className: "col-lg-12 row-lg list-unstyled py-lg-7",
             children: [
-                menuItems?.length && menuItems.map((item)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mega_menu_item__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+                menuItems?.length && menuItems.map((item)=>/*#__PURE__*/ _jsx(MegaMenuItem, {
                         menuItems: item
-                    }, (0,uuid__WEBPACK_IMPORTED_MODULE_1__.v4)())),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mega_menu_item__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {})
+                    }, uuidv4())),
+                /*#__PURE__*/ _jsx(MegaMenuItem, {})
             ]
         })
     });
@@ -2286,339 +1613,17 @@ __webpack_async_result__();
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Bq": () => (/* binding */ PagesDropdownMenus),
-/* harmony export */   "NE": () => (/* binding */ ElementsMegaMenu),
-/* harmony export */   "Qk": () => (/* binding */ BlogDropdownMenus),
-/* harmony export */   "hv": () => (/* binding */ DemoDropdownMenus),
-/* harmony export */   "mG": () => (/* binding */ ContactDropdownMenus)
-/* harmony export */ });
+/* unused harmony exports DemoDropdownMenus, ContactDropdownMenus */
 const DemoDropdownMenus = [
     {
-        title: "Home 01",
+        title: "Home",
         path: "/"
-    },
-    {
-        title: "Home 02",
-        path: "index-two"
-    },
-    {
-        title: "Home 03",
-        path: "index-three"
-    },
-    {
-        title: "Home 04",
-        path: "index-four"
-    },
-    {
-        title: "Home 05",
-        path: "index-five"
-    }
-];
-const PagesDropdownMenus = [
-    {
-        title: "About",
-        path: "about",
-        submenu: [
-            {
-                title: "About Dark",
-                path: "about-dark"
-            },
-            {
-                title: "About Light 01",
-                path: "about-us"
-            },
-            {
-                title: "Blog Light 02",
-                path: "about-light"
-            }
-        ]
-    },
-    {
-        title: "Blog Light",
-        path: "blog",
-        submenu: [
-            {
-                title: "Blog Light",
-                path: "blog-light"
-            },
-            {
-                title: "Blog Light Sidebar 01",
-                path: "blog"
-            },
-            {
-                title: "Blog Light Sidebar 02",
-                path: "blog-light-sidebar"
-            },
-            {
-                title: "Single Blog Light",
-                path: "single-blog-light"
-            }
-        ]
-    },
-    {
-        title: "Blog Dark",
-        path: "blog-dark",
-        submenu: [
-            {
-                title: "Blog Dark",
-                path: "blog-dark"
-            },
-            {
-                title: "Blog Dark Sidebar",
-                path: "blog-dark-sidebar"
-            },
-            {
-                title: "Blog Dark Details",
-                path: "single-blog-dark"
-            }
-        ]
-    },
-    {
-        title: "Service",
-        path: "#",
-        submenu: [
-            {
-                title: "Services",
-                path: "service"
-            },
-            {
-                title: "Single Service",
-                path: "single-service"
-            }
-        ]
-    },
-    {
-        title: "Team",
-        path: "team",
-        submenu: [
-            {
-                title: "Team Dark",
-                path: "team-dark"
-            },
-            {
-                title: "Team Light 01",
-                path: "team"
-            },
-            {
-                title: "Team Light 02",
-                path: "team-light"
-            },
-            {
-                title: "Single Team",
-                path: "single-team"
-            }
-        ]
-    },
-    {
-        title: "Pricing",
-        path: "pricing",
-        submenu: [
-            {
-                title: "Pricing 01",
-                path: "pricing-one"
-            },
-            {
-                title: "Pricing 02",
-                path: "pricing-two"
-            }
-        ]
-    },
-    {
-        title: "Carrer",
-        path: "carrer",
-        submenu: [
-            {
-                title: "Career",
-                path: "carrer"
-            },
-            {
-                title: "Single-Career",
-                path: "sinlge-career"
-            }
-        ]
-    },
-    {
-        title: "Portfolio",
-        path: "portfolio",
-        submenu: [
-            {
-                title: "Portfolio Classic",
-                path: "portfolio-one"
-            },
-            {
-                title: "Portfolio-Minimal",
-                path: "portfolio-two"
-            },
-            {
-                title: "Portfolio-Modern",
-                path: "portfolio-three"
-            },
-            {
-                title: "Single Portfolio",
-                path: "single-portfolio"
-            }
-        ]
-    },
-    {
-        title: "Utility",
-        path: "utility",
-        submenu: [
-            {
-                title: "Faq",
-                path: "faq"
-            },
-            {
-                title: "Error-404",
-                path: "404"
-            },
-            {
-                title: "Testimonial",
-                path: "testimonial"
-            },
-            {
-                title: "coming-soon",
-                path: "coming-soon"
-            }
-        ]
-    }
-];
-const ElementsMegaMenu = [
-    {
-        title: "About Style",
-        path: "#",
-        submenu: [
-            {
-                title: "About Dark",
-                path: "about-dark"
-            },
-            {
-                title: "About Light 01",
-                path: "about-us"
-            },
-            {
-                title: "Blog Light 02",
-                path: "about-light"
-            }
-        ]
-    },
-    {
-        title: "Blog Style",
-        path: "#",
-        submenu: [
-            {
-                title: "Blog Dark",
-                path: "blog-dark"
-            },
-            {
-                title: "Blog Dark Sidebar",
-                path: "blog-dark-sidebar"
-            },
-            {
-                title: "Blog Dark Details",
-                path: "single-blog-dark"
-            },
-            {
-                title: "Blog Light",
-                path: "blog-light"
-            },
-            {
-                title: "Blog Light Sidebar 01",
-                path: "blog"
-            },
-            {
-                title: "Blog Light Sidebar 02",
-                path: "blog-light-sidebar"
-            },
-            {
-                title: "Single Blog light",
-                path: "single-blog"
-            }
-        ]
-    },
-    {
-        title: "Masonry Style",
-        path: "#",
-        submenu: [
-            {
-                title: "Portfolio Classic",
-                path: "portfolio-one"
-            },
-            {
-                title: "Portfolio-Minimal",
-                path: "portfolio-two"
-            },
-            {
-                title: "Portfolio-Modern",
-                path: "portfolio-three"
-            },
-            {
-                title: "Single Portfolio",
-                path: "single-portfolio"
-            }
-        ]
-    },
-    {
-        title: "Contact Style",
-        path: "#",
-        submenu: [
-            {
-                title: "Contact Dark",
-                path: "contact-dark"
-            },
-            {
-                title: "Contact Light 01",
-                path: "contact"
-            },
-            {
-                title: "Contact Light 02",
-                path: "contact-light"
-            }
-        ]
-    }
-];
-const BlogDropdownMenus = [
-    {
-        title: "Blog Dark",
-        path: "blog-dark"
-    },
-    {
-        title: "Blog Dark Sidebar",
-        path: "blog-dark-sidebar"
-    },
-    {
-        title: "Blog Dark Details",
-        path: "single-blog-dark"
-    },
-    {
-        title: "Blog Light",
-        path: "blog-light"
-    },
-    {
-        title: "Blog Light Sidebar 01",
-        path: "blog"
-    },
-    {
-        title: "Blog Light Sidebar 02",
-        path: "blog-light-sidebar"
-    },
-    {
-        title: "Single Blog Light",
-        path: "single-blog-light"
     }
 ];
 const ContactDropdownMenus = [
     {
         title: "Contact Dark",
         path: "contact-dark"
-    },
-    {
-        title: "Contact Light 01",
-        path: "contact"
-    },
-    {
-        title: "Contact Light 02",
-        path: "contact-light"
     }
 ];
 
@@ -2630,9 +1635,7 @@ const ContactDropdownMenus = [
 
 "use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ NavItem)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4563);
@@ -2651,28 +1654,28 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_for
 
 
 function NavItem({ navItemText , menuItems , megaMenu =false  }) {
-    const [isOpenDropDown, setIsOpenDropDown] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);
+    const [isOpenDropDown, setIsOpenDropDown] = useState(false);
     const handleClick = (e)=>{
         setIsOpenDropDown(!isOpenDropDown);
     };
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+    return /*#__PURE__*/ _jsxs("li", {
         className: `nav-item ${menuItems ? "nav-item-has-children" : ""}`,
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+            /*#__PURE__*/ _jsxs("a", {
                 href: "#",
                 className: "nav-link-item drop-trigger",
                 onClick: handleClick,
                 children: [
                     navItemText,
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__.FontAwesomeIcon, {
-                        icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__.faAngleDown
+                    /*#__PURE__*/ _jsx(FontAwesomeIcon, {
+                        icon: faAngleDown
                     })
                 ]
             }),
-            !megaMenu ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
+            !megaMenu ? /*#__PURE__*/ _jsx(DropdownMenu, {
                 isOpenDropDown: isOpenDropDown,
                 menuItems: menuItems
-            }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mega_menu__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+            }) : /*#__PURE__*/ _jsx(MegaMenu, {
                 menuItems: menuItems
             })
         ]
@@ -2708,9 +1711,7 @@ function Navbar({ children  }) {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ SecondLevelDropdownItem)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
@@ -2718,9 +1719,9 @@ function Navbar({ children  }) {
 
 
 function SecondLevelDropdownItem({ navItemText , path  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+    return /*#__PURE__*/ _jsx("li", {
         className: "sub-menu--item",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+        children: /*#__PURE__*/ _jsx(Link, {
             href: path,
             children: navItemText
         })
@@ -2735,9 +1736,7 @@ function SecondLevelDropdownItem({ navItemText , path  }) {
 
 "use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ SecondLevelDropdownMenu)
-/* harmony export */ });
+/* unused harmony export default */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6555);
@@ -2751,15 +1750,15 @@ uuid__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (awai
 
 
 function SecondLevelDropdownMenu({ isClicked , submenu  }) {
-    const submenuThree = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)();
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
+    const submenuThree = useRef();
+    return /*#__PURE__*/ _jsx("ul", {
         ref: submenuThree,
         className: `sub-menu shape-none ${isClicked ? "active" : ""}`,
         id: "submenu-3",
-        children: submenu?.length && submenu.map((item)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_second_level_dropdown_item__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+        children: submenu?.length && submenu.map((item)=>/*#__PURE__*/ _jsx(SecondLevelDropdownItem, {
                 navItemText: item.title,
                 path: item.path
-            }, (0,uuid__WEBPACK_IMPORTED_MODULE_1__.v4)()))
+            }, uuidv4()))
     });
 }
 
