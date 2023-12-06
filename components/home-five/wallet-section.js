@@ -81,28 +81,25 @@ export default function WalletSection() {
 											</Accordion.Body>
 										</Accordion.Item>
 										<Accordion.Item eventKey="1">
-											<Accordion.Header>Get Some ETH</Accordion.Header>
+											<Accordion.Header>Get Some BNB</Accordion.Header>
 											<Accordion.Body>
-											Have ETH in your wallet to switch to $GROK XMAS. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.
+											Have BNB in your wallet to switch to $GROK XMAS. If you don’t have any BNB, you can buy directly on metamask OR trustwallet, transfer from another wallet, or buy on another exchange and send it to your wallet.
 
 
 											</Accordion.Body>
 										</Accordion.Item>
 										<Accordion.Item eventKey="2">
-											<Accordion.Header>Go to Uniswap</Accordion.Header>
+											<Accordion.Header>Go to PancakeSwap</Accordion.Header>
 											<Accordion.Body>
-											connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $GROK XMAS token address into Uniswap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.
+											connect to PancakeSwap. Go to pancakeswap.finance in google chrome or on the browser inside your Metamask app or trustwallet. Connect your wallet. Paste the $GROK XMAS token address into PancakeSwap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.
 
 
 											</Accordion.Body>
 										</Accordion.Item>
 										<Accordion.Item eventKey="2">
-											<Accordion.Header>Switch ETH for $GROK XMAS</Accordion.Header>
+											<Accordion.Header>Switch BNB for $GROK XMAS</Accordion.Header>
 											<Accordion.Body>
-											switch ETH for $GROK XMAS. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
-
-
-
+											switch BNB for $GROK XMAS. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
 											</Accordion.Body>
 										</Accordion.Item>
 									</Accordion>
