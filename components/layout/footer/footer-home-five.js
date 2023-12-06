@@ -8,14 +8,13 @@ export default function FooterHomeFive() {
 			<div className="container">
 				<div className="fugu--footer-top">
 					<div className="row">
-						<div className="col-lg-3">
+						<div className="col-lg-4">
 							<div className="fugu--textarea">
 								<div className="fugu--footer-logo">
-									<img src="/images/logo/logoo.png" alt="" className="light-version-logo" />
+									<img src="/images/new_img/logonew.png" alt="" className="light-version-logo" />
 								</div>
 								<p>
-									Discover NFTs by category, track the latest drops, and follow the collections you
-									love to enjoy it!
+								Grok xmas is completely Meme token with no values or returns on investment, stealth launched and Liquidity burned.
 								</p>
 								<div className="fugu--social-icon fugu--social-icon3">
 									<ul>
@@ -43,26 +42,8 @@ export default function FooterHomeFive() {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
-							<div className="fugu--footer-menu">
-								<span>Marketplace</span>
-								<ul>
-									<li>
-										<Link href="#">Create A Store</Link>
-									</li>
-									<li>
-										<Link href="#">Start Selling</Link>
-									</li>
-									<li>
-										<Link href="#">My Account</Link>
-									</li>
-									
-									
-								
-								</ul>
-							</div>
-						</div>
-						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+					
+						<div className="col-lg-3 offset-lg-1 col-md-4 col-sm-4">
 							<div className="fugu--footer-menu">
 								<span>Marketplace</span>
 								<ul>
@@ -82,9 +63,9 @@ export default function FooterHomeFive() {
 								</ul>
 							</div>
 						</div>
-						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+						<div className="col-lg-3 offset-lg-1 col-md-4 col-sm-4">
 							<div className="fugu--footer-menu">
-								<span>Marketplace</span>
+								<span>Contact Us</span>
 							</div>
 							<div className="fugu--info">
 								<ul>

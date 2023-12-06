@@ -2,6 +2,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
+
 const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 export default function VideoSectionFour() {
@@ -12,7 +13,7 @@ export default function VideoSectionFour() {
 				<div className="row">
 					<div className="col-xl-6">
 						<div className="fugu--video-thumb wow fadeInUpX" data-wow-delay="0.10s">
-							<img src="/images/new_img/img.png" alt="" />
+							<img src="/images/new_img/grokn1.png" alt="" />
 							<div className="fugu--popup" onClick={() => setOpen(true)}>
 								<img src="/images/all-img/v5/play-button.png" alt="" />
 								<div className="waves wave-1"></div>
@@ -29,19 +30,16 @@ export default function VideoSectionFour() {
 					</div>
 					<div className="col-xl-6 d-flex align-items-center">
 						<div className="fugu--default-content">
-							<h2>Grok Xmas is the most trusted cryptocurrency platform</h2>
+							<h3>Grok Xmas is a 100% COMMUNITY driven project owned by community, control by majority</h3>
 							<p>
-								Grok Xmas Cryptocurrency exchanges are websites where individuals can buy, sell, or exchange
-								crypto-currencies other digital currency here a Fugu is a cryptocurrency markets have
-								crashed in the last 24 hours.
+							Grok xmas is completely Meme token with no values or returns on investment, stealth launched and Liquidity burned.
 							</p>
 							<p>
-								The exchanges can converte a crypto-currencies into major part of a government-backed
-								currencies and convert cryptocurrencies.
+							Meme on it's finest, stealth launch on PancakeSwap
 							</p>
 							<div className="fugu--btn-wrap">
 								<Link href={"#"} legacyBehavior>
-									<a className="fugu--btn bg-blue">Discover More</a>
+									<a className="fugu--btn bg-blue">Buy GROK XMAS</a>
 								</Link>
 							</div>
 						</div>
@@ -52,7 +50,7 @@ export default function VideoSectionFour() {
 				channel="youtube"
 				autoplay
 				isOpen={isOpen}
-				videoId="E1xkXZs0cAQ"
+				videoId=""
 				onClose={() => setOpen(false)}
 			/>
 		</div>

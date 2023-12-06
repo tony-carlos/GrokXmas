@@ -14,6 +14,8 @@ export default function HeroSection() {
 							<p className="wow fadeInUpX" data-wow-delay="0.15s">
 							The ultimate gift of the year, giving to community and gathering together X10000 possibilities,
 							 stealth launch on PancakeSwap.
+							</p>							<p>
+							"Unwrap the joy of giving"
 							</p>
 							<div className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.25s">
 								<Link href={"/"} legacyBehavior>
@@ -29,17 +31,17 @@ export default function HeroSection() {
 								<img
 									className="wow fadeInUpX"
 									data-wow-delay="0.20s"
-									src="/images/all-img/v5/hero-thumb.png"
+									src="/images/new_img/hero.png"
 									alt=""
 								/>
 								<div className="fugu--bitcoin bitcoin-one">
-									<img src="/images/all-img/v5/bitcoin1.png" alt="" />
+									<img src="/images/new_img/gicon1.png" alt="" />
 								</div>
 								<div className="fugu--bitcoin bitcoin-two">
-									<img src="/images/all-img/v5/bitcoin2.png" alt="" />
+									<img src="/images/new_img/gicon.png" alt="" />
 								</div>
 								<div className="fugu--bitcoin bitcoin-three">
-									<img src="/images/all-img/v5/bitcoin3.png" alt="" />
+									<img src="/images/new_img/gicon.png" alt="" />
 								</div>
 							</div>
 						</div>

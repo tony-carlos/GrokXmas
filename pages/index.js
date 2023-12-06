@@ -21,7 +21,6 @@ export default function IndexFive() {
 			<FeatureSection />
 			<WalletSection />
 			<FaqAccordionTwo />
-			<CtaSection />
 		</>
 	);
 }

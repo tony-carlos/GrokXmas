@@ -27,7 +27,7 @@ export default function HeaderHomeFive() {
 				<nav className="navbar site-navbar">
 					<div className="brand-logo rt-mr-20">
 						<Link href={"/"}>
-							<img src="/images/logo/logoo.png" alt="" className="light-version-logo" />
+							<img src="/images/new_img/logonew.png" alt="" className="light-version-logo" />
 						</Link>
 					</div>
 					<div className="menu-block-wrapper">
