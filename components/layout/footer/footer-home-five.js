@@ -19,25 +19,16 @@ export default function FooterHomeFive() {
 								<div className="fugu--social-icon fugu--social-icon3">
 									<ul>
 										<li>
-											<Link href="#">
-												<img src="/images/social2/twitter.svg" alt="" />
+											<Link href="https://x.com/Grok_Fatherxmas?t=ZgxE_nDuwW3HsqVfjdkziw&s=09">
+												<img src="/images/new_img/x.png" alt="" />
 											</Link>
 										</li>
 										<li>
-											<Link href="#">
-												<img src="/images/social2/facebook.svg" alt="" />
+											<Link href="https://t.me/Grokfatherxmas">
+												<img src="/images/new_img/tele.png" alt="" />
 											</Link>
 										</li>
-										<li>
-											<Link href="#">
-												<img src="/images/social2/instagram.svg" alt="" />
-											</Link>
-										</li>
-										<li>
-											<Link href="#">
-												<img src="/images/social2/github.svg" alt="" />
-											</Link>
-										</li>
+									
 									</ul>
 								</div>
 							</div>
