@@ -13,7 +13,7 @@ export default function WalletSection() {
 								<img
 									className="wow fadeInUpX"
 									data-wow-delay=".10s"
-									src="/images/all-img/v5/thumb.png"
+									src="/images/new_img/thumb.png"
 									alt=""
 								/>
 								<div className="fugu--circle-shape circle-three">
