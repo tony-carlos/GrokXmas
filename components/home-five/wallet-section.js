@@ -91,12 +91,12 @@ export default function WalletSection() {
 										<Accordion.Item eventKey="2">
 											<Accordion.Header>Go to PancakeSwap</Accordion.Header>
 											<Accordion.Body>
-											connect to PancakeSwap. Go to pancakeswap.finance in google chrome or on the browser inside your Metamask app or trustwallet. Connect your wallet. Paste the $GROK XMAS token address into PancakeSwap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.
+											connect to PancakeSwap. Go to pancakeswap.finance in google chrome or on the browser inside your Metamask app or trustwallet. Connect your wallet. Paste the $GROK XMAS token address into PancakeSwap, select $GROK XMAS, and confirm. When Metamask prompts you for a wallet signature, sign.
 
 
 											</Accordion.Body>
 										</Accordion.Item>
-										<Accordion.Item eventKey="2">
+										<Accordion.Item eventKey="3">
 											<Accordion.Header>Switch BNB for $GROK XMAS</Accordion.Header>
 											<Accordion.Body>
 											switch BNB for $GROK XMAS. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.

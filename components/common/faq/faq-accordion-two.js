@@ -47,7 +47,7 @@ No, Grok Xmas is not designed as an investment opportunity. It is a meme token, 
 						</div>
 						<div className="col-lg-6">
 							<Accordion>
-								<Accordion.Item eventKey="0">
+								<Accordion.Item eventKey="3">
 									<Accordion.Header>How was Grok Xmas launched?</Accordion.Header>
 									<Accordion.Body>
 									
@@ -55,16 +55,8 @@ No, Grok Xmas is not designed as an investment opportunity. It is a meme token, 
 Grok Xmas was stealth-launched, meaning that its release on PancakeSwap and other platforms occurred without a pre-announcement. This approach adds an element of surprise and excitement to the project.
 									</Accordion.Body>
 								</Accordion.Item>
-								<Accordion.Item eventKey="1">
-									<Accordion.Header>
-										Q. What regulation and requirements govern bitcoin?
-									</Accordion.Header>
-									<Accordion.Body>
-										A cryptocurrency is a digital currency, which is an alternative form of payment
-										created using encryption algorithms.
-									</Accordion.Body>
-								</Accordion.Item>
-								<Accordion.Item eventKey="2">
+								
+								<Accordion.Item eventKey="4">
 									<Accordion.Header>Is Grok Xmas affiliated with any other projects or tokens?</Accordion.Header>
 									<Accordion.Body>
 									

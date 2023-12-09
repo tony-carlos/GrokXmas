@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
 
-const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
+// const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 export default function VideoSectionFour() {
 	const [isOpen, setOpen] = useState(false);
@@ -14,8 +14,8 @@ export default function VideoSectionFour() {
 					<div className="col-xl-6">
 						<div className="fugu--video-thumb wow fadeInUpX" data-wow-delay="0.10s">
 							<img src="/images/new_img/grokn1.png" alt="" />
-							<div className="fugu--popup" onClick={() => setOpen(true)}>
-								<img src="/images/all-img/v5/play-button.png" alt="" />
+							<div className="fugu--popup">
+								<img src="/images/new_img/gbutton.png" alt="" />
 								<div className="waves wave-1"></div>
 								<div className="waves wave-2"></div>
 								<div className="waves wave-3"></div>
@@ -46,13 +46,13 @@ export default function VideoSectionFour() {
 					</div>
 				</div>
 			</div>
-			<ModalVideo
+			{/* <ModalVideo
 				channel="youtube"
 				autoplay
 				isOpen={isOpen}
 				videoId=""
 				onClose={() => setOpen(false)}
-			/>
+			/> */}
 		</div>
 	);
 }
