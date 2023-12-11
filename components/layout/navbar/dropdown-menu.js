@@ -5,7 +5,7 @@ export default function DropdownMenu({ isOpenDropDown, menuItems }) {
 		<ul className={`sub-menu ${isOpenDropDown ? "active" : ""}`} id="submenu-2">
 			{menuItems?.length &&
 				menuItems.map((item) => (
-					<DropdownItem navItemText={item.title} path={item.path} key={uuidv4()} submenu={item.submenu} />
+					<DropdownItem navItemText={item.title} path={item.path}/>
 				))}
 		</ul>
 	);

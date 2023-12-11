@@ -12,8 +12,7 @@ export default function FeatureSection() {
 							<div className="fugu--iconbox-data">
 								<h4>Name</h4>
                                 <p>
-                                GROK XMAS
-                                </p>
+								GROK X GPT                                </p>
 								
 							</div>
 						</div>
@@ -24,8 +23,7 @@ export default function FeatureSection() {
 							<div className="fugu--iconbox-data">
 								<h4>Symbol</h4>
 								<p>
-                                $GROK XMAS
-								</p>
+								GROK X GPT								</p>
 							</div>
 						</div>
 					</div>
@@ -34,8 +32,7 @@ export default function FeatureSection() {
         <div className="fugu--iconbox-data">
             <h4>Supply </h4>
             <p>
-                6,000,000,000,000 (6T)
-            </p>
+			599, 000,000,000 (599B)            </p>
         </div>
     </div>
 </div>

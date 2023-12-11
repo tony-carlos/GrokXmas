@@ -1,15 +1,19 @@
 export const DemoDropdownMenus = [
-	{
-		title: "Home",
-		path: "/",
-	}
-	
+
+];
+export const PagesDropdownMenus = [
+
+
+];
+
+export const ElementsMegaMenu = [
+
+];
+
+export const BlogDropdownMenus = [
+
 ];
 
 export const ContactDropdownMenus = [
-	{
-		title: "Contact Dark",
-		path: "contact-dark",
-	},
 	
 ];

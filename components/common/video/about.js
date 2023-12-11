@@ -39,7 +39,7 @@ export default function VideoSectionFour() {
 							</p>
 							<div className="fugu--btn-wrap">
 								<Link href={"#"} legacyBehavior>
-									<a className="fugu--btn bg-blue">Buy GROK XMAS</a>
+									<a className="fugu--btn bg-blue">Buy GROK X GPT</a>
 								</Link>
 							</div>
 						</div>

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
+
 import { Accordion } from "react-bootstrap";
 export default function FaqAccordionTwo() {
 	return (
@@ -7,11 +8,7 @@ export default function FaqAccordionTwo() {
 			<div className="container">
 				<div className="fugu--section-title">
 					<div className="fugu--default-content">
-						<h2>FAQs for Grok Xmas</h2>
-						<p>
-							Frequently asked questions qbout cryptocurrency & blockchain technology. Cryptographic
-							security for conducting trusted transactions.
-						</p>
+						<h3>FAQs</h3>
 					</div>
 				</div>
 				<div className="fugu--accordion-one accordion-three" id="accordionExample2">

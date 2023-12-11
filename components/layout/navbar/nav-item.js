@@ -1,27 +1,34 @@
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
-import DropdownMenu from "./dropdown-menu";
-import MegaMenu from "./mega-menu";
+// NavItem.js
+import Link from "next/link";
+import { useRouter } from 'next/router';
 
-export default function NavItem({ navItemText, menuItems, megaMenu = false }) {
-	const [isOpenDropDown, setIsOpenDropDown] = useState(false);
-	const handleClick = (e) => {
-		setIsOpenDropDown(!isOpenDropDown);
-	};
+const NavItem = ({ navItemText, link }) => {
+  const router = useRouter();
 
-	return (
-		<li className={`nav-item ${menuItems ? "nav-item-has-children" : ""}`}>
-			<a href="#" className="nav-link-item drop-trigger" onClick={handleClick}>
-				{navItemText}
-				<FontAwesomeIcon icon={faAngleDown} />
-			</a>
+  const handleNavItemClick = () => {
+    router.push(link);
+  };
 
-			{!megaMenu ? (
-				<DropdownMenu isOpenDropDown={isOpenDropDown} menuItems={menuItems} />
-			) : (
-				<MegaMenu menuItems={menuItems} />
-			)}
-		</li>
-	);
-}
+  return (
+    <div className="nav-item" onClick={handleNavItemClick}>
+      <Link href={link}>
+        <div className="nav-item-content">{navItemText}</div>
+      </Link>
+      <style jsx>{`
+        .nav-item-content {
+          padding: 12px; 
+          color: white;
+          text-decoration: none;
+          cursor: pointer;
+          transition: color 0.3s ease-in-out;
+        }
+
+        .nav-item-content:hover {
+          color: red;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default NavItem;
