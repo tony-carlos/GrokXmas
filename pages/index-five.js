@@ -1,27 +1,28 @@
 import Head from "next/head";
 import FaqAccordionTwo from "../components/common/faq/faq-accordion-two";
 import ClientSliderOne from "../components/common/sliders/client/client-slider-one";
-import VideoSectionFour from "../components/common/video/video-section-four";
+import VideoSectionFour from "../components/common/video/about";
 import CtaSection from "../components/home-five/cta-section";
-import FeatureSection from "../components/home-five/feature-section";
+import RoadMap from "../components/home-five/road-map";
 import HeroSection from "../components/home-five/hero-section";
-import TestimonialSection from "../components/home-five/testimonial-section";
-import WalletSection from "../components/home-five/wallet-section";
+import WalletSection from "../components/home-five/about";
+import ValueSection from "../components/home-five/tokenomics";
+import HowToBuy from "../components/home-five/how-to-buy-grok"
 
 export default function IndexFive() {
 	return (
 		<>
 			<Head>
-				<title>fugu -5</title>
+				<title>Grok Xmas </title>
 			</Head>
 			<HeroSection />
+			<ValueSection />
 			<ClientSliderOne />
 			<VideoSectionFour />
-			<FeatureSection />
 			<WalletSection />
-			<TestimonialSection />
+			<HowToBuy />
+			<RoadMap />
 			<FaqAccordionTwo />
-			<CtaSection />
 		</>
 	);
 }

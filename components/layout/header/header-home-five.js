@@ -1,4 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+// ... (your other imports)
+
 import Link from "next/link";
 import { useState } from "react";
 import {
@@ -20,7 +21,7 @@ import HowToBuy from "../../home-five/how-to-buy-grok";
 import Roadmap from "../../home-five/road-map";
 import FAQs from "../../common/faq/faq-accordion-two";
 
-export default function HeaderHomeFive() {
+const HeaderHomeFive = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleCloseMobileMenu = () => {
@@ -56,11 +57,11 @@ export default function HeaderHomeFive() {
 
               <Navbar>
                 <NavItem navItemText="Home" link="/" />
-                <NavItem navItemText="About" link="/components/home-five/about" />
-                <NavItem navItemText="Tokenomics" link="/home-five/tokenomics" />
-                <NavItem navItemText="How to Buy" link="/home-five/how-to-buy-grok" />
-                <NavItem navItemText="Roadmap" link="/home-five/road-map" />
-                <NavItem navItemText="FAQs" link="/common/faq/faq-accordion-two" />
+                <NavItem navItemText="About" link="" />
+                <NavItem navItemText="Tokenomics" link="" />
+                <NavItem navItemText="How to Buy" link="" />
+                <NavItem navItemText="Roadmap" link="" />
+                <NavItem navItemText="FAQs" link="" />
               </Navbar>
             </nav>
           </div>
@@ -83,4 +84,6 @@ export default function HeaderHomeFive() {
       `}</style>
     </header>
   );
-}
+};
+
+export default HeaderHomeFive;
