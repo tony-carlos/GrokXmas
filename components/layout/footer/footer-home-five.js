@@ -24,11 +24,10 @@ export default function FooterHomeFive() {
 											</Link>
 										</li>
 										<li>
-											<Link href="https://t.me/Grokfatherxmas">
+											<Link href="https://t.me/grokxmasportal">
 												<img src="/images/new_img/tele.png" alt="" />
 											</Link>
 										</li>
-									
 									</ul>
 								</div>
 							</div>

@@ -1,5 +1,4 @@
 // ... (your other imports)
-
 import Link from "next/link";
 import { useState } from "react";
 import {
@@ -13,13 +12,11 @@ import NavItem from "../navbar/nav-item";
 import Navbar from "../navbar/navbar";
 import useScroll from "./../../../hooks/useScroll";
 
-// Menu Link
-
-import About from "../../home-five/about";
-import Tokenomics from "../../home-five/tokenomics";
-import HowToBuy from "../../home-five/how-to-buy-grok";
-import Roadmap from "../../home-five/road-map";
-import FAQs from "../../common/faq/faq-accordion-two";
+import About from "../../home-five/about";  // Update path
+import Tokenomics from "../../home-five/tokenomics";  // Update path
+import HowToBuy from "../../home-five/how-to-buy-grok";  // Update path
+import Roadmap from "../../home-five/road-map";  // Update path
+import FAQs from "../../common/faq/faq-accordion-two";  // Update path
 
 const HeaderHomeFive = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -54,14 +51,13 @@ const HeaderHomeFive = () => {
                   &times;
                 </div>
               </div>
-
               <Navbar>
                 <NavItem navItemText="Home" link="/" />
-                <NavItem navItemText="About" link="" />
-                <NavItem navItemText="Tokenomics" link="" />
-                <NavItem navItemText="How to Buy" link="" />
-                <NavItem navItemText="Roadmap" link="" />
-                <NavItem navItemText="FAQs" link="" />
+                <NavItem navItemText="About" link="/about" component={About} />
+                <NavItem navItemText="Tokenomics" link="/tokenomics" component={Tokenomics} />
+                <NavItem navItemText="How to Buy" link="/how-to-buy" component={HowToBuy} />
+                <NavItem navItemText="Roadmap" link="/roadmap" component={Roadmap} />
+                <NavItem navItemText="FAQs" link="/faqs" component={FAQs} />
               </Navbar>
             </nav>
           </div>
